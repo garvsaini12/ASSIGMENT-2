@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>garv saini portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<style>
+    .cont{
+            background-color: rgb(0, 55, 173);
+            color: rgb(229, 229, 229);
+        }
+
+        #one{
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        #two{
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        #three{
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        #color{
+            background-color: rgb(0, 55, 173);
+            color: rgb(229, 229, 229);
+        }
+
+        #table{
+            border-color: rgb(0, 55, 173);
+            border-width: 2px;  
+        }
+
+        #fixed{
+            position: fixed;
+            background-color: rgb(0, 55, 173);
+            color: rgb(229, 229, 229);
+            padding: 20px;
+            bottom: 10px;
+            left: 600px;
+            border-radius: 20px;
+            
+        }
+
+        nav a {
+            color: rgb(0, 55, 173);
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color:  rgb(0, 55, 173);
+            color: rgb(229, 229, 229);
+        }
+
+        #button{
+            background-color: rgb(0, 55, 173);
+            color: rgb(229, 229, 229);
+            padding: 8px 20px;
+            border-radius: 8px;
+        }
+
+        #button:hover{
+            background-color: rgba(0, 0, 0, 0.594);
+        }
+
+        #img{
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(0, 55, 173);
+        }
+</style>
+
+<body id="top">
+    <center>
+      <header>  
+        <div class="cont">
+            <h1>MY PORTFOLIO</h1>
+            <h3>Garv Saini</h3>
+        <p>B.Sc. Data Science Student</p>
+            </div>
+
+
+        <nav>
+            <a href="#about">About</a> <br>
+            <a href="#projects">Projects</a> <br>
+            <a href="#contact">Contact</a> <br>
+        </nav>
+    </header>
+
+        <h2>Welcome to my portfolio</h2>
+        <p>Hello! I am a web development student. This is my personal portfolio website</p>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="IMG.jpeg" alt="Garv" id="img" width="300">
+                <p>I'm passionate about web development and building creative projects. I am currently learning the basics of web HTML and CSS and i want to understand how these technologies work together to build interactive and use-friendly websites</p>
+            </section>
+
+            <hr>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+                <ul>
+                    <li id="one"><b>Portfolio Website:</b> A personal one-page website to showcase your bio, skills, and contact details.</li><br>
+                    <li id="two"><b>Weekly Schedule:</b> A detailed day to day schedule for time management.</li> <br>
+                    <li id="three"><b>Student Registration Form:</b> A form webpage with fields like name, email, etc for practicing form handling.</li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Technical Skills</h2>
+                <table border="" cellpadding="20" id="table">
+
+        <thead id="color">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>beginner</td>
+            </tr>
+            <tr>
+                <td>PYTHON</td>
+                <td>Learning</td>
+            </tr>
+
+        </tbody>
+      </table>
+        </section>
+
+        <hr>
+          <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+
+
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name"
+        placeholder="Enter your name" required> <br><br>
+
+        
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email"
+        placeholder="Enter your email" required> <br><br>
+
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"
+        placeholder="Write your message here"
+        rows="5" required></textarea><br>
+
+
+        <input id="button" type="submit" value="Submit"><br>
+
+        <div>
+            <a href="#top" id="fixed">Back to Top</a>
+        </div>
+
+
+</form>
+
+        </section>
+
+    </main>
+
+    <hr>
+ 
+    <footer>
+        <p> 2026 Garv Saini</p>
+        </footer>
+        </main>
+        </center>
+        
+</body>
+</html>
